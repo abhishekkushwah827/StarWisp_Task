@@ -1,0 +1,77 @@
+
+.notepad{
+ height:100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#try{
+    position: absolute;
+   height:fit-content;
+   background-color:#E5E5E5;
+    left: 393px;
+    width:1083px;
+    top: 281px;
+
+}
+
+
+.notepad__first_div{
+ display: flex;
+ flex-direction: column; 
+position: absolute;
+width: 1083px;
+height: 204px;
+left: 393px;
+top: 42px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+border-radius: 15px;
+}
+
+.note__input{
+     position: relative; 
+width: 1031.97px;
+height: 98px;
+margin-left:auto;
+margin-right:auto;
+top: 20px;
+font-size: 20px;
+border: none;
+outline: none;
+resize: none;
+background: #FAFAFA;
+border-radius: 15px;
+}
+
+ #btn1{
+    position: absolute;;
+    height: 17px;
+    left:60.95px;
+  top: 150px;
+    
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 20px;
+background-color: transparent;
+    border: none;
+    outline: none;
+    
+    
+    color: #EF3E36;
+}
+#btn2{
+    position: absolute;
+width: 180.03px;
+height: 50px;
+left: 876px;
+top: 134px;
+
+background: #FF6C40;
+border-radius: 11px;
+font-size: 20px;
+color: #F2D8D5;
+}

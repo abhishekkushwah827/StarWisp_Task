@@ -1,0 +1,30 @@
+.month #heading{
+ margin-top: 11px;
+   
+ font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px; 
+    color:  #000000;  
+}
+
+.month #num{
+    position: absolute;
+left: 33px;
+top: 62px;
+
+
+font-family: Comfortaa;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 28px;
+color: #0F26F2;
+}
+.month img{
+position: absolute;
+left: 150px;
+top: 64.88px;
+
+}

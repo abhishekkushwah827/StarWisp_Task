@@ -1,0 +1,56 @@
+.save{
+    display: flex;
+    background-color:  #FFFFFF;
+    /* background-color: black; */
+    border-radius: 15px;
+   width: 100%;
+    margin-top: 15px;
+    min-height: 100px;
+}
+.save img{
+    margin-left: 22px;
+    margin-top: 17px;
+}
+.save__div2{
+       display: flex;
+        margin-left: 22px;
+        margin-top: 17px;
+}
+.save__userpara{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* width: 100%; */
+       
+}
+.save__userpara  span{
+  margin-left: 25px;
+  margin-top: 22px;
+ 
+  font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+   
+} 
+.save__userpara p{
+   margin-left: 25px;
+    margin-top: 10px;
+    /* margin-left: 25px; */
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 20px;
+    
+    color: #000000;
+}
+
+.save__time{
+ 
+margin-left: auto;
+margin-right: 26px;
+margin-top: 20px;
+}

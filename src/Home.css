@@ -1,0 +1,345 @@
+.home{
+ margin: 0;
+  padding: 0;
+box-sizing: border-box;
+  height: 1084px;
+  background-color: lightgray;
+}
+
+.search_div{
+    position: absolute;
+width: 836px;
+height: 36px;
+left: 393px;
+top: 42px;
+}
+ 
+.home_search{
+    position: absolute;
+    left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+  width: 100%;
+
+background: #c5b3b3;
+border: 2px solid #E2E2E2;
+box-sizing: border-box;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+border-radius: 12px;
+} 
+
+.home__sales_div{
+    position: absolute;
+width: 1029px;
+height: 495px;
+left: 377px;
+top: 105px;
+background: #FFFFFF;
+}
+.home__sales_div #sale_head{
+    position: absolute;
+height: 36px;
+left: 2.04%;
+right: 60.93%;
+top: calc(50% - 36px/2 - 208.5px);
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #593636;
+} 
+.home__sales_div_right{
+    position: absolute;
+left: 82.22%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background:#FF6C40;;
+}
+.home__sales_div_right span{
+    position: absolute;
+    height: 36px;
+    left: 21px;
+    right: 7.39%;
+    top:21px;
+    
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.home__sales_div_right #hsales_r_first_div{
+    position: absolute;
+    left:21px;
+    right:21px;
+    top: 15.76%;
+    bottom: 63.03%;
+
+    background: #FFE700;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+border-radius: 15px;
+}
+.right_try .first{
+    position: absolute;
+    height: 24px;
+    left: 21px;
+    right: 30px;
+    top: calc(50% - 24px/2 - 19.5px);
+     text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #593636;
+}
+.right_try .sec{
+    /* Revenue */
+
+
+position: absolute;
+height: 18px;
+left: 21px;
+right: 65px;
+top: 66px;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: rgba(89, 54, 54, 0.8);
+}
+
+
+
+.home__sales_div_right #sec_div{
+    position: absolute;
+    left:21px;
+    right:21px;
+    top: 41.21%;
+    bottom: 37.58%;
+
+
+    background: #1FFD77;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+border-radius: 15px;
+}
+
+
+.home__notepad_div{
+    position: absolute;
+    width: 425px;
+    height: 385px;
+    left: 377px;
+    top: 634px;
+    
+    background: #FFFFFF;
+    border-radius: 15px;
+/* background-color: blue; */
+}
+
+.home__notepad_div span{
+    position: absolute;
+     width: 143px;
+    height: 49px;
+       left: 29px;
+    top: 29px; 
+    
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    
+    color: #593636;
+}
+.home__notepad_div div{
+   position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top:60px;
+    
+    
+
+}
+.home__notepad_div p{
+   
+    margin-left: 45px;
+    position: relative;
+ text-align: left;
+
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    
+    color: #000000;
+}
+.home__notepad_icon #f{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 344px;
+    top: 240px;
+}
+.home__notepad_icon #s{
+    position: absolute;
+width: 20px;
+height: 26px;
+left: 363px;
+top: 254px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 1px;
+line-height: 6px;
+
+color: #FFF5F5;
+}
+
+
+
+
+.home__graph_div{
+    position: absolute;
+width: 323px;
+height: 252px;
+left: 814px;
+top: 631px;
+background: #E5E5E5;
+
+}
+
+.home__inbox_div{
+    position: absolute;
+width: 300px;
+height: 103px;
+left: 823px;
+top: 916px;
+
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+border-radius: 15px;
+background: #FFFFFF;
+    /* background-color: turquoise; */
+}
+.home__inbox_div #first{
+    position: absolute;
+    height: 24px;
+    left: 10.3%;
+    right: 63.11%;
+    top: calc(50% - 24px/2 + 3.5px);
+    
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #929292;
+}
+.home__inbox_div #second{
+    position: absolute;
+height: 48px;
+left: 76.06%;
+right: 3.71%;
+top: calc(50% - 48px/2 + 0.5px);
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+
+
+color: #593636;
+}
+
+
+
+.home__thism_div{
+    position: absolute;
+    width: 269.02px;
+    height: 117.56px;
+    left: 1147px;
+    top: 638.1px;
+    background: #FFFFFF;
+        border-radius: 15px;
+}
+
+
+.home__lastm_div{
+    position: absolute;
+width: 255px;
+height: 111.66px;
+left: 1153px;
+top: 787.09px;
+background: #FFFFFF;
+    border-radius: 15px;
+}
+
+
+.home__rside_div{
+    position: absolute;
+width: 331px;
+height: 624px;
+left: 1438px;
+top: 158px;
+
+background: #FFFFFF;
+border-radius: 0px 0px 15px 15px;
+
+}
+
+.home__rside_head #notification{
+    position: absolute;
+width: 168px;
+height: 53px;
+left: 1438px;
+top: 105px;
+
+background: #FFFFFF;
+border-radius: 15px 15px 0px 0px;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+color: #494949;
+}
+.home__rside_head #events{
+    position: absolute;
+    width: 179px;
+    height: 53px;
+    left: 1590px;
+    top: 105px;
+    
+    background: #FAFAFA;
+
+  
+}

@@ -1,0 +1,84 @@
+.menu{
+    position: absolute;
+width: 315px;
+height: 1084px;
+left: 0px;
+top: 0px;
+
+background: #FF6C40;
+}
+.menu__div1 img{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 30px;
+    top: 30px;
+      
+}
+.menu__div1 span{
+    position: absolute;
+    width: 151px;
+    height: 36px;
+    left: 96px;
+    top: 30px;
+    
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF; 
+}
+.menu__div2 img{
+    position: absolute;
+width: 44px;
+height: 36px;
+left: 22px;
+top: 122px;
+
+
+}
+.menu__div2 span{
+    position: absolute;
+width: 87px;
+height: 36px;
+left: 96px;
+top: 121px;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.menu__div3 img{
+    position: absolute;
+    width: 35.02px;
+    height: 36px;
+    left: 30.49px;
+    top: 210px;  
+}
+.menu__div3 span{
+    position: absolute;
+    width: 85px;
+    height: 36px;
+    left: 96px;
+    top: 210px;
+    
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}

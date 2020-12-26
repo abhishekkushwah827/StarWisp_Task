@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import Notepad from "./Notepad";
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SideMenu from "./SideMenu";
+import Home from "./Home";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route exact path="/">
+            <SideMenu />
+            <Home />
+          </Route>
+          <Route exact path="/lorem">
+            <h1>Lorem page</h1>
+            <SideMenu />
+          </Route>
+          <Route exact path="/ipsum">
+            <h1>ipsum page</h1>
+            <SideMenu />
+          </Route>
+          <Route path="/notepad">
+            <SideMenu />
+            <Notepad />
+          </Route>
+        </Switch>
+
+
+      </div>
+    </Router>
   );
 }
 

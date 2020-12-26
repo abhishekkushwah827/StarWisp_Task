@@ -1,0 +1,72 @@
+#notification{
+    position: absolute;
+    width: 143px;
+    height: 30px;
+  
+   
+    
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #494949;
+    background-color: tomato;
+}
+
+#events{
+    position: absolute;
+    width: 76px;
+    height: 31px;
+  
+
+    
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #B0B0B0;
+}
+.f1{
+   
+
+    display: flex;
+    margin: auto;
+}
+ .content{
+height:80px;
+text-align: left;
+margin-left: 15px;
+}
+
+.content #admin{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+
+color: #484848;
+}
+.content #para{
+    
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #756F6F;
+}
+.content #time{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 7px;
+line-height: 8px;
+
+color: #756F6F;
+}
