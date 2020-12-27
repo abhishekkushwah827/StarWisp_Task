@@ -1,7 +1,7 @@
 import React from 'react';
 import frame from "./Images/frame.png"
 
-function Home_graph2() {
+function Homegraph2() {
     return (
         <div>
          <img src={frame} alt=""/>   
@@ -9,4 +9,4 @@ function Home_graph2() {
     )
 }
 
-export default Home_graph2;
+export default Homegraph2;

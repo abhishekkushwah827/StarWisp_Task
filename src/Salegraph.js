@@ -3,7 +3,7 @@ import "./Sale_graph.css"
 
 import graphic from "./Images/Graphic.png";
 
-function Sale_graph() {
+function Salegraph() {
     return (
         <div className="graph">
         <img className="graphic" src={graphic} alt="graph"/>
@@ -11,4 +11,4 @@ function Sale_graph() {
     )
 }
 
-export default Sale_graph;
+export default Salegraph;

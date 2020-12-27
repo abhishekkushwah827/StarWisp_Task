@@ -2,7 +2,7 @@ import React from 'react';
 import "./Side_div.css";
 
 
-function Side_div({ boximg, head, para, time }) {
+function Sidediv({ boximg, head, para, time }) {
     return (
         <div>
             <div className="f1">
@@ -14,12 +14,12 @@ function Side_div({ boximg, head, para, time }) {
                     <p id="para">{para}</p>
                     <span id="time">{time}</span>
 
-                </div>
 
             </div>
             <hr />
         </div>
+        </div>
     )
 }
 
-export default Side_div;
+export default Sidediv;
